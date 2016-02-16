@@ -25,7 +25,5 @@ gem 'jbuilder', '~> 2.0'
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'guard-rspec'
-  gem 'rb-fsevent' if `uname` =~ /Darwin/
   gem 'timecop', '~> 0.8.0'
 end
