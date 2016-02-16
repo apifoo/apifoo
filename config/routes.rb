@@ -55,4 +55,5 @@ Rails.application.routes.draw do
   #   end
   
   resource :helloworld, controller: :hello, only: [:show]
+  resource :date, controller: :date, only: [:show]
 end
